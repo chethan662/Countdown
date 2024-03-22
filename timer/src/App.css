@@ -1,0 +1,73 @@
+body {
+  background-color: #a54ddb;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(254, 249, 254);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.start-button,
+.stop-button,
+.reset-button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #a54ddb;
+  border: 1px solid white;
+  color: white;
+}
+
+.message-container {
+  margin-top: 20px;
+}
+
+.message {
+  color: #f3f7f7;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px; 
+  
+}
+
+.timer-container {
+  display: flex;
+  justify-content: center; 
+}
+
+.timer-box {
+  margin: 0 10px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid transparent; 
+  padding: 10px; 
+  background-color: #9e32dd;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); 
+  width: 60px;
+  height: 60px;
+}
+
+.timer-label {
+  font-size: 16px; 
+}
+
+.timer-value {
+  font-size: 32px;
+}
